@@ -1,0 +1,31 @@
+body {
+	familia de fuentes: "Microsoft Yahei";
+	}
+
+.StandardTd {
+	height: 70px;
+	width: 100px;
+	font-size: 35px
+			}
+
+.BigTd{
+	height: 70px;
+	width: 100%;
+	font-size: 35px;
+}
+
+.Table{
+	height: 350px;
+	margin-left: 50px;
+	border: 1; 
+	align: center;
+	background-color: #2ca1f4;
+}
+
+.Input{
+	height: 90px;
+	width: 395px;
+	font-size: 50px;
+	text-align: right;
+	padding-right: 10px;
+}

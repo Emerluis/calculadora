@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculadora</title>
+</head>
+<body>
+
+	<h2>Calculadora Básica</h2>
+
+	<table class="Table">
+		<tr>
+			<td colspan="6" style="text-align: center; padding:5px 0;">
+				<input disabled="" placeholder="0" type="text" id="nummessege" class="Input">
+			</td>
+		</tr>
+
+	<tr>
+		<td>
+			<input type="button" value="1" id="1" onclick="onclicknum(1)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="2" id="2" onclick="onclicknum(2)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="3" id="3" onclick="onclicknum(3)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="+" id="add" onclick="onclicknum('+')" class="StandardTd">
+		</td>
+
+		<td>
+			<input type="button" value="Del" id="delete" onclick="onclickDelete()" class="StandardTd">
+		</td >
+	</tr>
+
+	<tr>
+		<td>
+			<input type="button" value="4" id="4" onclick="onclicknum(4)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="5" id="5" onclick="onclicknum(5)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="6" id="6" onclick="onclicknum(6)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="-" id="sub" onclick="onclicknum('-')" class="StandardTd">
+		</td>
+		<td>
+			<img src="batman.jpg" width="98" height="67">
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<input type="button" value="7" id="7" onclick="onclicknum(7)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="8" id="8" onclick="onclicknum(8)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="9" id="9" onclick="onclicknum(9)" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="*" id="mul" onclick="onclicknum('*')" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="C" id="clear" onclick="onclickclear()" class="StandardTd">
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2">
+			<input type="button" value="0" id="0" onclick="onclicknum(0)" class="BigTd">
+		</td>
+		<td>
+			<input type="button" value="." id="point" onclick="onclicknum('.')" class="StandardTd">
+		</td>
+		<td>
+			<input type="button" value="/" id="div" onclick="onclicknum('/')" class="StandardTd">
+		</td>
+
+		
+		
+		<td>
+			<input type="button" value="=" id="result" onclick="onclickresult()" class="BigTd">
+		</td>
+	</tr>
+	</table>
+
+
+	<script src="app.js"></script>
+</body>
+</html>
